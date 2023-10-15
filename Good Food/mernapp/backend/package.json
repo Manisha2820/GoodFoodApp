@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "netlify-lambda serve .",
+    "start": "netlify-lambda serve dist",
     "build": "netlify-lambda build ."
   },
   "author": "end-to-end",
